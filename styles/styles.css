@@ -9,21 +9,20 @@
  * OF ANY KIND, either express or implied. See the License for the specific language
  * governing permissions and limitations under the License.
  */
-
 :root {
-    /* Updated colors */
-    --background-color: #fdfdfd; /* Softer off-white for a modern touch */
-    --light-color: #f1f1f1;      /* Slightly darker light color for contrast */
-    --dark-color: #343a40;       /* Rich dark color for stronger contrast */
-    --text-color: #1a1a1a;       /* Near-black for clear readability */
-    --link-color: #007bff;       /* Brighter blue for more engaging links */
-    --link-hover-color: #0056b3; /* Darker blue for link hover */
-    --accent-color: #ff6b6b;     /* Coral accent for buttons/highlights */
-    --secondary-accent-color: #feca57; /* Warm yellow for secondary highlights */
+    /* Dark mode hacker-style colors */
+    --background-color: #0d1117; /* Dark, almost black background */
+    --light-color: #161b22;      /* Slightly lighter dark color for contrast */
+    --dark-color: #010409;       /* Even darker for deeper sections */
+    --text-color: #c9d1d9;       /* Light gray text for readability */
+    --link-color: #39ff14;       /* Bright neon green for hacker link style */
+    --link-hover-color: #0efc4f; /* Lighter neon green on hover */
+    --accent-color: #3b82f6;     /* Electric blue accent for highlights */
+    --secondary-accent-color: #ff007a; /* Vivid pink as a secondary accent */
 
     /* Fonts */
-    --body-font-family: 'Roboto', sans-serif;
-    --heading-font-family: 'Roboto Condensed', sans-serif;
+    --body-font-family: 'Roboto Mono', monospace; /* Monospace font for a coding feel */
+    --heading-font-family: 'Roboto Condensed', sans-serif; /* Condensed for headings */
 
     /* Body font sizes */
     --body-font-size-m: 22px;
@@ -41,10 +40,11 @@
     /* Navigation height */
     --nav-height: 64px;
 
-    /* New additions for depth and subtle details */
-    --border-color: #e5e5e5;     /* Light border color for separating sections */
-    --shadow-color: rgba(0, 0, 0, 0.1); /* Subtle shadow for depth */
+    /* Shadows and Borders */
+    --border-color: #30363d;     /* Dark border for subtle separation */
+    --shadow-color: rgba(0, 0, 0, 0.5); /* Stronger shadow for depth in dark mode */
 }
+
 
 
 /* fallback fonts */
