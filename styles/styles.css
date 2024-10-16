@@ -42,7 +42,7 @@
 
     /* Shadows and Borders */
     --border-color: #30363d;     /* Dark border for subtle separation */
-    --shadow-color: rgba(0, 0, 0, 0.5); /* Stronger shadow for depth in dark mode */
+    --shadow-color: rgba(0 0 0 / 50%); /* Stronger shadow for depth in dark mode */
 }
 
 
