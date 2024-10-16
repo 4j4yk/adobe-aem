@@ -2,8 +2,8 @@
 Sample AEM site 
 
 ## Environments
-- Preview: https://main--{repo}--{owner}.aem.page/
-- Live: https://main--{repo}--{owner}.aem.live/
+- Preview: https://main--adobe-aem--4j4yk.aem.page/
+- Live: https://main--adobe-aem--4j4yk.aem.live/
 
 ## Installation
 
